@@ -63,40 +63,26 @@
   
   /* CSS */
 
-  header{
-    height: auto;
+  .topbar{
+    display: none;
   }
-  .top{
-    margin-bottom: 15px;
+  .navbar-collapse{
+    text-align: right;
   }
-  .top img{
-    margin-right: 14px;
-  }
-  .menu span{
-    padding-left: 1px;
-    font-size: 7px;
-  }
-  .menu-item ul li{
-    margin-left: 30px;
-  }
-  .menu-item ul li a{
-    font-size: 14px;
-    letter-spacing: 2px;
-  }
-  .banner p{
-    font-size: 6px;
+  .banner-text p{
+    font-size: 10px;
     padding: 4px;
-    width: 80%;
-    margin-bottom: 5px;
     border: 1px dashed #3d2514;
+    display: inline;
   }
-  .banner h1{
-    font-size: 25.3px;
+  .banner-text h1{
+    font-size: 35.3px;
     letter-spacing: 2px;
     text-shadow: 2px 2px white;
+    margin-top: 15px;
   }
-  .banner h2{
-    font-size: 20.39px;
+  .banner-text h2{
+    font-size: 25.39px;
     letter-spacing: 2px;
     text-shadow: 1px 1px white;
   }
